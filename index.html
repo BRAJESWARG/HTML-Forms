@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center; background-color: blueviolet;">
+    <h1>Google Survey Form</h1>
+    <h4>Thank you for taking the time to help us improve the platform</h4>
+    <br><br>
+    <div style="color: aliceblue; font-weight: bold; font-size: 25px; text-align: left; margin-left: 28%; margin-right: 25%; background-color: navy;">
+        <form action="./index2.html">
+        <label for="Name">Name:</label><br>
+        <input style="border: 1px solid black; border-radius: 10px; height: 25px; width: 200px;" required type="text" placeholder="Enter your Name" id="name"  name="name"  value=""> <br><br>
+        
+        <label for="Email">Email:</label><br>
+        <input style="border: 1px solid black; border-radius: 10px; height: 25px; width: 200px;" required type="email" placeholder="Enter your Email" id="email"  name="email"  value=""> <br><br>
+
+        <label for="Age">Age:</label><br>
+        <input style="border: 1px solid black; border-radius: 10px; height: 25px; width: 200px;" required type="number" placeholder="Age" id="age"  name="age"  value=""> <br><br>
+
+        <label for="drop">Which option best describes your current role?</label><br>
+        <select  style="border: 1px solid black; border-radius: 10px; height: 25px; width: 200px;" name="dropdown" id="drop">
+            <option value="0">Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full time Job">Full time Job</option>
+            <option value="Full time Learner">Full time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Others">Others</option>
+        </select>
+
+        <br><br>
+        <label for="radio">Would you recommend Google to a friend?</label><br>
+        <input type="radio" name="recommend" id="definitely" value="definitely" >
+        <label style="font-size: 20px;" for="definitely">Definitely</label><br>
+
+        <input type="radio" name="recommend" id="maybe" value="maybe" >
+        <label style="font-size: 20px;" for="maybe">Maybe</label><br>
+
+        <input type="radio" name="recommend" id="notsure" value="notsure" >
+        <label style="font-size: 20px;" for="notsure">Not Sure</label><br>
+
+        <br><br>
+        <label for="drop2">What is your favorite feature of Google?</label><br>
+        <select style="border: 1px solid black; border-radius: 10px; height: 25px; width: 200px;" name="dropdown" id="drop2">
+            <option value="0">Select an option</option>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="OpenSource">Open Source</option>
+        </select>
+
+        <br><br>
+        <label for="checkbox">Would you recommend Google to a friend?</label><br>
+        <input type="checkbox" name="improve" id="Front-end-Projects" value="Front-end-Projects" >
+        <label style="font-size: 20px;" for="Front-end-Projects">Front-end Projects</label><br>
+
+        <input type="checkbox" name="improve" id="Back-end-Projects" value="Back-end-Projects" >
+        <label style="font-size: 20px;" for="Back-end-Projects">Back-end Projects</label><br>
+
+        <input type="checkbox" name="improve" id="Data-Visualization" value="Data-Visualization" >
+        <label style="font-size: 20px;" for="Data-Visualization">Data Visualization</label><br>
+        
+        <input type="checkbox" name="elevation3" id="Challenges" value="Challenges" >
+        <label style="font-size: 20px;" for="Challenges">Challenges</label><br>
+
+        <input type="checkbox" name="elevation3" id="Videos" value="Videos" >
+        <label style="font-size: 20px;" for="Videos">Videos</label><br>
+
+        <input type="checkbox" name="elevation3" id="City-Meetups" value="City-Meetups" >
+        <label style="font-size: 20px;" for="City-Meetups">City Meetups</label><br>
+
+        <input type="checkbox" name="elevation3" id="Wiki" value="Wiki" >
+        <label style="font-size: 20px;" for="Wiki">Wiki</label><br>
+
+        <input type="checkbox" name="elevation3" id="Forum" value="Forum" >
+        <label style="font-size: 20px;" for="Forum">Forum</label><br>
+
+        <input type="checkbox" name="elevation3" id="Additional-Courses" value="Additional-Courses" >
+        <label style="font-size: 20px;" for="Additional-Courses">Additional Courses</label><br>
+        
+        <label for="text">Any comments or suggestions?</label><br>
+        <input style="border: 1px solid black; border-radius: 10px; height: 100px; width: 600px; margin-left: 10px;" type="text" id="comments" name="comments"  value=""> <br><br>
+
+        <input style="border: 1px solid black; border-radius: 10px; height: 25px; width: 600px; margin-left: 10px; font-weight: bold; font-size: 20px; background-color: green;" type="submit">
+
+    </form>
+    </div>
+</body>
+</html>
